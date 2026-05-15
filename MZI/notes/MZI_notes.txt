@@ -1,0 +1,12 @@
+MZI designed using KLayout.
+
+Simulation performed in Ansys Lumerical FDTD.
+
+Operating wavelength:
+1550 nm
+
+Waveguide width:
+500 nm
+
+Purpose:
+Interference-based optical modulation and splitting.
