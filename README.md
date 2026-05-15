@@ -38,7 +38,7 @@ All layouts were verified through GDS checks.
 ![Ring-Resonator_Layout](Ring-Resonator/layout/Ring_resonator_layout_klayout.png)
 
 ### Simulation Result
-![Ring-Resonator_Simulations](Ring_Resonator/simulations/ring_response.png)
+![Ring-Resonator_Simulations](Ring-Resonator/simulations/ring_response.png)
 
 ---
 
@@ -58,7 +58,7 @@ All layouts were verified through GDS checks.
 ![Ultra-broadband-splitter_layout](Ultra-broadband-splitter/layout/Ultra_broadband_splitter_layout_klayout.png)
 
 ### Simulation Result
-![Ultra-broadband-splitter_simulation](Ultra-Broadband-Splitter/simulation/Ultra_broadband_splitter.png)
+![Ultra-broadband-splitter_simulation](Ultra-broadband-splitter/simulation/Ultra_broadband_splitter.png)
 
 ---
 
