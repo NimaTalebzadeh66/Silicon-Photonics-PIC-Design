@@ -25,7 +25,7 @@ All layouts were verified through GDS checks.
 ## 1. Mach-Zehnder Interferometer (MZI)
 
 ### Layout
-![MZI Layout](MZI/figures/MZI_all_layout_klayout.pdf)
+![MZI Layout](MZI/layout/MZI_all_layout_klayout.png)
 
 ### Simulation Result
 ![MZI Simulation](MZI/simulations/MZI_double_transmission_spectrum.png)
@@ -45,7 +45,7 @@ All layouts were verified through GDS checks.
 ## 3. Bragg Reflector
 
 ### Layout
-![Bragg](Bragg_Reflector/figures/Bragg_reflector_layout_klayout.pdf)
+![Bragg](Bragg_Reflector/layout/Bragg_reflector_layout_klayout.png)
 
 ### Simulation Result
 ![Bragg Result](Bragg_Reflector/simulations/bragg_reflection.png)
