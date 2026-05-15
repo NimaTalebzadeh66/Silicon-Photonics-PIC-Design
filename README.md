@@ -38,27 +38,27 @@ All layouts were verified through GDS checks.
 ![Ring-Resonator_Layout](Ring-Resonator/layout/Ring_resonator_layout_klayout.png)
 
 ### Simulation Result
-![Ring Resonator_Simulations](Ring_Resonator/simulations/ring_response.png)
+![Ring-Resonator_Simulations](Ring_Resonator/simulations/ring_response.png)
 
 ---
 
 ## 3. Bragg Reflector
 
 ### Layout
-![Bragg-Grating_layout](Bragg_Grating/layout/Bragg_Grating_layout_klayout.png)
+![Bragg-Grating_layout](Bragg-Grating/layout/Bragg_reflector_layout_klayout.png)
 
 ### Simulation Result
-![Bragg-Grating simulations](Bragg-Grating/simulations/bragg_reflection.png)
+![Bragg-Grating simulations](Bragg-Grating/simulations/Bragg_reflection.png)
 
 ---
 
 ## 4. Ultra Broadband Splitter
 
 ### Layout
-![Ultra_broadband_splitter_layout](Ultra_broadband_splitter/layout/Ultra_broadband_splitter_layout_klayout.png)
+![Ultra-broadband-splitter_layout](Ultra-broadband-splitter/layout/Ultra_broadband_splitter_layout_klayout.png)
 
 ### Simulation Result
-![Ultra_broadband_splitter_simulation](Ultra_Broadband_Splitter/simulation/Ultra_broadband_splitter.png)
+![Ultra-broadband-splitter_simulation](Ultra-Broadband-Splitter/simulation/Ultra_broadband_splitter.png)
 
 ---
 
