@@ -45,7 +45,7 @@ All layouts were verified through GDS checks.
 ## 3. Bragg Reflector
 
 ### Layout
-![Bragg](Bragg_Reflector/layout/Bragg_reflector_layout_klayout.png)
+![Bragg_layout](Bragg_Grating/layout/Bragg_Grating_layout_klayout.png)
 
 ### Simulation Result
 ![Bragg Result](Bragg_Reflector/simulations/bragg_reflection.png)
