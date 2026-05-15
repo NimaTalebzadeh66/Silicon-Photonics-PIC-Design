@@ -35,7 +35,7 @@ All layouts were verified through GDS checks.
 ## 2. Ring Resonator
 
 ### Layout
-![Ring](Ring-Resonator/figures/Ring_resonator_layout_klayout.png)
+![Ring](Ring-Resonator/layout/Ring_resonator_layout_klayout.png)
 
 ### Simulation Result
 ![Ring Result](Ring_Resonator/simulations/ring_response.png)
