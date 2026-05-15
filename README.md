@@ -27,38 +27,38 @@ All layouts were verified through GDS checks.
 ### Layout
 ![MZI Layout](MZI/layout/MZI_all_layout_klayout.png)
 
-### Simulation Result
-![MZI Simulation](MZI/simulations/MZI_double_transmission_spectrum.png)
+### Simulation Result (one of the samples-MZI_single)
+![MZI Simulations](MZI/simulations/MZI_double_transmission_spectrum.png)
 
 ---
 
 ## 2. Ring Resonator
 
 ### Layout
-![Ring](Ring-Resonator/layout/Ring_resonator_layout_klayout.png)
+![Ring-Resonator_Layout](Ring-Resonator/layout/Ring_resonator_layout_klayout.png)
 
 ### Simulation Result
-![Ring Result](Ring_Resonator/simulations/ring_response.png)
+![Ring Resonator_Simulations](Ring_Resonator/simulations/ring_response.png)
 
 ---
 
 ## 3. Bragg Reflector
 
 ### Layout
-![Bragg_layout](Bragg_Grating/layout/Bragg_Grating_layout_klayout.png)
+![Bragg-Grating_layout](Bragg_Grating/layout/Bragg_Grating_layout_klayout.png)
 
 ### Simulation Result
-![Bragg Result](Bragg_Reflector/simulations/bragg_reflection.png)
+![Bragg-Grating simulations](Bragg-Grating/simulations/bragg_reflection.png)
 
 ---
 
 ## 4. Ultra Broadband Splitter
 
 ### Layout
-![Splitter](Ultra_Broadband_Splitter/figures/Ultra_broadband_splitter_layout_klayout.pdf)
+![Ultra_broadband_splitter_layout](Ultra_broadband_splitter/layout/Ultra_broadband_splitter_layout_klayout.png)
 
 ### Simulation Result
-![Splitter Result](Ultra_Broadband_Splitter/simulations/Ultra_broadband_splitter.png)
+![Ultra_broadband_splitter_simulation](Ultra_Broadband_Splitter/simulation/Ultra_broadband_splitter.png)
 
 ---
 
