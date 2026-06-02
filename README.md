@@ -2,7 +2,7 @@
 
 This repository contains photonic integrated circuit (PIC) layouts and simulation studies developed using KLayout and ANSYS Lumerical.
 
-The work includes:
+This work includes:
 - Mach-Zehnder Interferometer (MZI)
 - Ring Resonator
 - Bragg Reflector
