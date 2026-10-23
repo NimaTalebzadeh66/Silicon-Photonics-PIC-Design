@@ -12,7 +12,7 @@ Several MZI path-length architectures were designed and simulated. Fabricated de
 
 | KLayout layout | Optical simulation | Experimental transmission |
 |:---:|:---:|:---:|
-| ![MZI layout](MZI/layout/MZI_all_layout_klayout.png) | ![MZI simulated transmission](MZI/simulations/MZI_double_transmission_spectrum.png) | *Experimental plot to be added* |
+| ![MZI layout](MZI/layout/MZI_all_layout_klayout.png) | ![MZI simulated transmission](MZI/simulations/MZI_double_transmission_spectrum.png) | ![Measured MZI transmission](assets/mzi_measured_transmission.png) |
 
 **Experimental FSR:** approximately **1.5 nm**. Additional [simulation plots](MZI/simulations/) and [layout PDFs](MZI/layout/) are preserved.
 
@@ -22,7 +22,7 @@ A bus-waveguide-coupled microring was designed, simulated, fabricated, and spect
 
 | KLayout layout | Optical simulation | Experimental transmission |
 |:---:|:---:|:---:|
-| ![Ring layout](Ring-Resonator/layout/Ring_resonator_layout_klayout.png) | ![Simulated ring response](Ring-Resonator/simulations/ring_response.png) | *Experimental plot to be added* |
+| ![Ring layout](Ring-Resonator/layout/Ring_resonator_layout_klayout.png) | ![Simulated ring response](Ring-Resonator/simulations/ring_response.png) | ![Measured ring transmission](assets/ring_measured_transmission.png) |
 
 **Experimental FSR:** approximately **4.5 nm**. The measured response includes narrow resonance features; a quantitative Q factor is not reported here.
 
@@ -32,7 +32,7 @@ Periodic grating structure designed and analyzed for wavelength-selective reflec
 
 | KLayout layout | Optical simulation | SEM of fabricated grating |
 |:---:|:---:|:---:|
-| ![Bragg layout](Bragg-Grating/layout/Bragg_reflector_layout_klayout.png) | ![Bragg simulated reflection](Bragg-Grating/simulations/Bragg_reflection.png) | *SEM image to be added* |
+| ![Bragg layout detail](assets/bragg_grating_layout_detail.png) | ![Bragg simulated reflection](Bragg-Grating/simulations/Bragg_reflection.png) | ![SEM of fabricated Bragg grating — Applied NanoTools](assets/bragg_reflector_sem.png) |
 
 SEM image: **Applied NanoTools**, 28 May 2026; 100 nm scale bar. The original [KLayout layout](Bragg-Grating/layout/Bragg_reflector_layout_klayout.png) and other figures remain available.
 
