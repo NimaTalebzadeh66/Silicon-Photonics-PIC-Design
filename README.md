@@ -1,68 +1,55 @@
-# Silicon Photonics PIC Design
+# Silicon Photonics — PIC Design, Simulation & Characterization
 
-This repository contains photonic integrated circuit (PIC) layouts and simulation studies developed using KLayout and ANSYS Lumerical.
+Design-to-fabrication portfolio of **passive silicon photonic integrated circuits**: Mach–Zehnder interferometers (MZIs), microring resonators, Bragg reflectors, and ultra-broadband splitters. Projects combine **Ansys Lumerical simulations, KLayout/PDK-based GDSII layouts, DRC/LVS verification, university-led fabrication, and optical characterization**.
 
-This work includes:
-- Mach-Zehnder Interferometer (MZI)
-- Ring Resonator
-- Bragg Reflector
-- Ultra Broadband Splitter
+**Measured spectral results:** MZI **FSR ≈ 1.5 nm**; microring resonator **FSR ≈ 4.5 nm** (approximate values from measured spectra).
 
-All layouts were verified through GDS checks.
+## Projects
 
----
+### 1 · [Mach–Zehnder Interferometers (MZI)](MZI/)
 
-# Tools Used
+Several MZI path-length architectures were designed and simulated. Fabricated devices were characterized through wavelength-dependent transmission measurements.
 
-- KLayout
-- ANSYS Lumerical
-- GDS Layout Verification
+| KLayout layout | Optical simulation | Experimental transmission |
+|:---:|:---:|:---:|
+| ![MZI layout](MZI/layout/MZI_all_layout_klayout.png) | ![MZI simulated transmission](MZI/simulations/MZI_double_transmission_spectrum.png) | *Experimental plot to be added* |
 
----
+**Experimental FSR:** approximately **1.5 nm**. Additional [simulation plots](MZI/simulations/) and [layout PDFs](MZI/layout/) are preserved.
 
-# Components
+### 2 · [Microring Resonator](Ring-Resonator/)
 
-## 1. Mach-Zehnder Interferometer (MZI)
+A bus-waveguide-coupled microring was designed, simulated, fabricated, and spectrally characterized.
 
-### Layout
-![MZI Layout](MZI/layout/MZI_all_layout_klayout.png)
+| KLayout layout | Optical simulation | Experimental transmission |
+|:---:|:---:|:---:|
+| ![Ring layout](Ring-Resonator/layout/Ring_resonator_layout_klayout.png) | ![Simulated ring response](Ring-Resonator/simulations/ring_response.png) | *Experimental plot to be added* |
 
-### Simulation Result (one of the samples-MZI_single)
-![MZI Simulations](MZI/simulations/MZI_double_transmission_spectrum.png)
+**Experimental FSR:** approximately **4.5 nm**. The measured response includes narrow resonance features; a quantitative Q factor is not reported here.
 
----
+### 3 · [Bragg Reflector](Bragg-Grating/)
 
-## 2. Ring Resonator
+Periodic grating structure designed and analyzed for wavelength-selective reflection.
 
-### Layout
-![Ring-Resonator_Layout](Ring-Resonator/layout/Ring_resonator_layout_klayout.png)
+| KLayout layout | Optical simulation | SEM of fabricated grating |
+|:---:|:---:|:---:|
+| ![Bragg layout](Bragg-Grating/layout/Bragg_reflector_layout_klayout.png) | ![Bragg simulated reflection](Bragg-Grating/simulations/Bragg_reflection.png) | *SEM image to be added* |
 
-### Simulation Result
-![Ring-Resonator_Simulations](Ring-Resonator/simulations/ring_response.png)
+SEM image: **Applied NanoTools**, 28 May 2026; 100 nm scale bar. The original [KLayout layout](Bragg-Grating/layout/Bragg_reflector_layout_klayout.png) and other figures remain available.
 
----
+### 4 · [Ultra-Broadband Optical Splitter](Ultra-broadband-splitter/)
 
-## 3. Bragg Reflector
+Passive broadband power-splitting design and wavelength-response simulation.
 
-### Layout
-![Bragg-Grating_layout](Bragg-Grating/layout/Bragg_reflector_layout_klayout.png)
+| KLayout layout | Optical simulation |
+|:---:|:---:|
+| ![Broadband splitter layout](Ultra-broadband-splitter/layout/Ultra_broadband_splitter_layout_klayout.png) | ![Simulated broadband splitter response](Ultra-broadband-splitter/simulation/Ultra_broadband_splitter.png) |
 
-### Simulation Result
-![Bragg-Grating simulations](Bragg-Grating/simulations/Bragg_reflection.png)
+## Design workflow & tools
 
----
+**PIC architecture → optical simulation → KLayout/GDSII → PDK verification (DRC/LVS) → university-led tapeout/fabrication → experimental spectral characterization.**
 
-## 4. Ultra Broadband Splitter
+**Tools:** KLayout · Ansys Lumerical · SiEPIC EBeam PDK · GDSII · DRC/LVS.
 
-### Layout
-![Ultra-broadband-splitter_layout](Ultra-broadband-splitter/layout/Ultra_broadband_splitter_layout_klayout.png)
+**Contribution:** PIC design, simulation, layout, and analysis. Device fabrication and experimental characterization were performed through the university workflow. Original simulation results and layout exports are retained in their respective project folders.
 
-### Simulation Result
-![Ultra-broadband-splitter_simulation](Ultra-broadband-splitter/simulation/Ultra_broadband_splitter.png)
-
----
-
-# Author
-
-Nima Talebzadeh  
-Photonics | TPV Systems | Optical Simulations | Silicon Photonics
+**Author:** Nima Talebzadeh, Ph.D.
