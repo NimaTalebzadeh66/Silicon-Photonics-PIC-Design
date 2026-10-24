@@ -1,4 +1,4 @@
-# Silicon Photonics — PIC Design, Simulation & Characterization
+# Silicon Photonics — PIC Design, Simulation, tapeout, fabrication & Characterization
 
 Design-to-fabrication portfolio of **passive silicon photonic integrated circuits**: Mach–Zehnder interferometers (MZIs), microring resonators, Bragg reflectors, and ultra-broadband splitters. Projects combine **Ansys Lumerical simulations, KLayout/PDK-based GDSII layouts, DRC/LVS verification, university-led fabrication, and optical characterization**.
 
